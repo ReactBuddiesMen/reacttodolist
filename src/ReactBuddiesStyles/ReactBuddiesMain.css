@@ -32,3 +32,29 @@
     padding: 10px 60px;
     font-size: 18px;
 }
+
+
+/*list item styles*/
+
+ul {
+    list-style-type: none;
+    margin: 10px 20px;
+}
+
+
+ul li {
+    background-color: #fcf1ed;
+    margin-bottom: 7px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li button {
+   background-color: #e6858e;
+   color: #fff;
+   border-radius: 30px;
+   padding: 10px 35px;
+   border: none;
+   font-size: 18px
+}
