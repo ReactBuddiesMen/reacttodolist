@@ -1,0 +1,34 @@
+.headerContainer{
+    background-color: #91baa8;
+    padding: 130px;
+}
+
+.headerContainer h2{
+    text-align: center;
+    color: #fff;
+    font-size: 35px
+}
+
+.headerAddFormContainer{
+    display: flex;
+    justify-content: center;
+}
+
+
+.headerAddFormContainer input{
+    background-color: #fbf9e2;
+    border: none;
+    border-radius: 13px;
+    padding: 18px 60px;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.headerAddFormContainer button{
+    background-color: #535353;
+    border: none;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 60px;
+    font-size: 18px;
+}
