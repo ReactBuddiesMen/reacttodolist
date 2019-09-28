@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-
+import ListItem from './ListItem'
 const ListContainer = ()=>(
-    <ul>
-        <li>First Item  <button>delete</button></li>
-        <li>Second Item <button>delete</button></li>
-        <li>Third Item  <button>delete</button></li>
-        <li>Fourth Item <button>delete</button></li>                
-    </ul>
+    <div>
+        <ListItem itemname = 'first Item'/>
+        <ListItem itemname = 'Second Item'/>
+        <ListItem itemname = 'Third Item'/>
+        <ListItem itemname = 'Fourth Item'/>
+    </div>
 )
 
 export default ListContainer
