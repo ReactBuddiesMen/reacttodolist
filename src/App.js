@@ -1,17 +1,19 @@
-import React from 'react';
+import React, { Component } from 'react'
 import './App.css';
 import HeaderSection from './ReactBuddiesComponents/HeaderSection'
 import ListContainer from './ReactBuddiesComponents/ListContainer'
 
-
-function App() {
-  return (
-    <div>
-          <HeaderSection />
-          <ListContainer />
-    </div>
-
-  );
+class App extends Component{
+  render(){
+    return (
+      <div>
+        <HeaderSection />
+        <ListContainer af/>
+      </div>
+    )
+  }
 }
+
+
 
 export default App;
