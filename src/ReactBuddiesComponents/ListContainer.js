@@ -4,21 +4,15 @@ import ListItem from './ListItem'
 
 
 class ListContainer extends Component{
-    constructor(){
-        super()
-        this.state = {
-            itemname : ['first Item', 'Second Item', 'Third Item', 'Fourth Item', 'hehehez']
-        }//state closing
-    }//constructor closing
 
-
-    render(){
+    render(){        
+        console.log(this.props.tasks)
         return(
+           
             <div>
-                {this.state.itemname.map(name => (
-                     <ListItem itemname = {name}/>
-                ))}
-               
+                  {this.props.tasks.map((task, i ) => (
+                     <ListItem itemname = {task.name} key={i} deleteHandler = {this.props.deleteHandler}/>
+                ))}                                
             </div>
         )//return closing
     }//redner closing
