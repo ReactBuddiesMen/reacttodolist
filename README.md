@@ -15,7 +15,7 @@
 * [Git](https://git-scm.com/downloads)
 * [Node.JS](https://nodejs.org/en/download/) (Latest LTS version)
 
-# Steps to clone and run
+# Running the app:
 
 1. Clone repo
 
@@ -25,7 +25,7 @@
 
 `cd reacttodolist`
 
-3. Install modules:
+3. Install node_modules:
 
 `npm install`
 
@@ -40,4 +40,4 @@
 
 #### Minor
 * Ximeni Franz : 
-  > *Protyping*
+  > *Prototyping*
