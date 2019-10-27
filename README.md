@@ -14,6 +14,7 @@
 * Terminal or [Git Bash](https://git-scm.com/download/win) (for Windows)
 * [Git](https://git-scm.com/downloads)
 * [Node.JS](https://nodejs.org/en/download/) (Latest LTS version)
+* NPM (included in NodeJS) or [Yarn](https://yarnpkg.com/)
 
 # Running the app:
 
