@@ -19,7 +19,7 @@
 
 1. Clone repo
 
-`https://github.com/ReactBuddiesMen/reacttodolist.git`
+`git clone https://github.com/ReactBuddiesMen/reacttodolist.git`
 
 2. Go to cloned folder: 
 
@@ -27,9 +27,9 @@
 
 3. Install node_modules:
 
-`npm install`
+`npm install` or `yarn`
 
-4. Run app:
+4. Run the app:
 
 `npm start` or `yarn start`
 
