@@ -34,7 +34,7 @@
 `npm start` or `yarn start`
 
 # Contributors
-#### Main
+#### Major
 * Mike Macabulos 
   > *CSS styling*, *App logic*, *Refactoring*
 
