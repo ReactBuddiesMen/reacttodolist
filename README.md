@@ -27,7 +27,7 @@
 
 3. Install node_modules:
 
-`npm install`
+`npm install` or `yarn`
 
 4. Run the app:
 
