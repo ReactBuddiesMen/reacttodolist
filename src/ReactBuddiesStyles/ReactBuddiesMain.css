@@ -60,3 +60,8 @@ ul li button {
    border: none;
    font-size: 18px
 }
+
+
+.alertify-notifier.ajs-bottom.ajs-right{
+    color: #fff;
+}

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './App.css';
 import HeaderSection from './ReactBuddiesComponents/HeaderSection'
 import ListContainer from './ReactBuddiesComponents/ListContainer'
+import alertify from '../node_modules/alertifyjs'
 
 
 class App extends Component{
@@ -21,19 +22,29 @@ class App extends Component{
 addToList(){
    const txtValue = document.querySelector('#itemNameTextBox').value
    this.setState(prevState => {
-     const updatedTask = prevState.TaskList.map(task => {
+     if(!prevState.TaskList.some(task => task.name == txtValue )){
+      
+      const updatedTask = prevState.TaskList.map(task => {        
         return task
-     })
+       
+      })
       if(txtValue !== ""){        
         this.clearTxtBoxValue()
+        alertify.success('Successfully added task.');
         return {TaskList: [...updatedTask, {name: txtValue}]}
-      }      
+      }else{
+        alertify.error("You didn't put anything");    
+      }         
+     }else{
+      alertify.error('Sorry you have added duplicate name of task ');
+      this.clearTxtBoxValue()
+     }
     }
    )
 
-}
+}   
 clearTxtBoxValue(){
-    document.querySelector('#itemNameTextBox').value = ""
+    document.querySelector('#itemNameTextBox').value = ""    
 }
 
 
